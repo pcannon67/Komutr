@@ -11,18 +11,19 @@
                 <controller identifier="NorthboundScene" backgroundImage="Background" id="AgC-eL-Hgc" customClass="KMTRNorthboundInterfaceController">
                     <items>
                         <label alignment="left" text="   Northbound" id="ICo-bV-y74">
-                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
                         </label>
                         <label alignment="left" text="    Mountain View" lineHeight="1" id="7UM-v0-IvR">
-                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                            <fontDescription key="font" type="system" pointSize="12"/>
                         </label>
                         <table alignment="left" layout="vertical" id="3O6-Uf-kwL">
                             <items>
                                 <tableRow id="rl9-3m-GSf">
                                     <group key="rootItem" width="1" height="28" alignment="left" id="mp6-dl-OQ2">
                                         <items>
-                                            <label alignment="left" text="Label" textAlignment="left" id="1bq-HS-r46"/>
-                                            <label alignment="right" text="Label" textAlignment="right" id="41w-rB-Q0J"/>
+                                            <imageView width="15" height="27" alignment="left" verticalAlignment="center" contentMode="left" id="5hU-T0-Hdp"/>
+                                            <label alignment="left" verticalAlignment="center" text="8:15pm" textAlignment="left" id="1bq-HS-r46"/>
+                                            <label alignment="right" verticalAlignment="center" text="51m" textAlignment="right" id="41w-rB-Q0J"/>
                                         </items>
                                     </group>
                                 </tableRow>
@@ -36,10 +37,32 @@
             </objects>
             <point key="canvasLocation" x="235" y="347"/>
         </scene>
-        <!--Southbound Interface Controller-->
+        <!--SouthboundScene-->
         <scene sceneID="HNF-Xl-WF2">
             <objects>
-                <controller id="MXt-eC-mLU" customClass="KMTRSouthboundInterfaceController"/>
+                <controller identifier="SouthboundScene" backgroundImage="BgSouth" id="MXt-eC-mLU" customClass="KMTRSouthboundInterfaceController">
+                    <items>
+                        <label width="102.5" height="17" alignment="left" text="    Southbound" id="NH2-zi-ajV">
+                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                        </label>
+                        <label alignment="left" text="     Mountain View" id="DjN-Bu-Ld5">
+                            <fontDescription key="font" type="system" pointSize="12"/>
+                        </label>
+                        <table alignment="left" layout="vertical" id="a7e-tY-3vW">
+                            <items>
+                                <tableRow id="1HL-aS-fL1">
+                                    <group key="rootItem" width="1" alignment="left" id="PnR-Ff-bSO">
+                                        <items>
+                                            <imageView width="15" height="27" alignment="left" verticalAlignment="center" id="7on-pU-r5p"/>
+                                            <label alignment="left" verticalAlignment="center" text="8:47pm" textAlignment="left" id="uK6-Sx-VsS"/>
+                                            <label alignment="right" verticalAlignment="center" text="24m" textAlignment="right" id="qMf-Xv-AHf"/>
+                                        </items>
+                                    </group>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="506" y="347"/>
         </scene>
