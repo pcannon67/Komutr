@@ -5,19 +5,26 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3734"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Northbound Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController"/>
+                <controller id="AgC-eL-Hgc" customClass="KMTRNorthboundInterfaceController">
+                    <items>
+                        <imageView width="136" height="151" alignment="left" id="Bet-1Q-Iyn"/>
+                    </items>
+                    <connections>
+                        <segue destination="MXt-eC-mLU" kind="relationship" relationship="nextPage" id="uN8-go-BeR"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="235" y="347"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Southbound Interface Controller-->
         <scene sceneID="HNF-Xl-WF2">
             <objects>
-                <controller id="MXt-eC-mLU"/>
+                <controller id="MXt-eC-mLU" customClass="KMTRSouthboundInterfaceController"/>
             </objects>
-            <point key="canvasLocation" x="428" y="346"/>
+            <point key="canvasLocation" x="506" y="347"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="BOz-TT-tkC">

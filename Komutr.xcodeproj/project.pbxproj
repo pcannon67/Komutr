@@ -23,6 +23,8 @@
 		A13D5BA11A2286DD00141805 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13D5BA01A2286DD00141805 /* Interface.storyboard */; };
 		A13D5BA31A2286DD00141805 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13D5BA21A2286DD00141805 /* Images.xcassets */; };
 		A13D5BA61A2286DD00141805 /* Komutr WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A13D5B841A2286DD00141805 /* Komutr WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A183E6EE1A22878600D7C999 /* KMTRNorthboundInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A183E6ED1A22878600D7C999 /* KMTRNorthboundInterfaceController.m */; };
+		A183E6F11A22888600D7C999 /* KMTRSouthboundInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A183E6F01A22888600D7C999 /* KMTRSouthboundInterfaceController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +94,10 @@
 		A13D5B9F1A2286DD00141805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A13D5BA01A2286DD00141805 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		A13D5BA21A2286DD00141805 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A183E6EC1A22878600D7C999 /* KMTRNorthboundInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMTRNorthboundInterfaceController.h; sourceTree = "<group>"; };
+		A183E6ED1A22878600D7C999 /* KMTRNorthboundInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMTRNorthboundInterfaceController.m; sourceTree = "<group>"; };
+		A183E6EF1A22888600D7C999 /* KMTRSouthboundInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMTRSouthboundInterfaceController.h; sourceTree = "<group>"; };
+		A183E6F01A22888600D7C999 /* KMTRSouthboundInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMTRSouthboundInterfaceController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +228,10 @@
 				A13D5BA01A2286DD00141805 /* Interface.storyboard */,
 				A13D5BA21A2286DD00141805 /* Images.xcassets */,
 				A13D5B9E1A2286DD00141805 /* Supporting Files */,
+				A183E6EC1A22878600D7C999 /* KMTRNorthboundInterfaceController.h */,
+				A183E6ED1A22878600D7C999 /* KMTRNorthboundInterfaceController.m */,
+				A183E6EF1A22888600D7C999 /* KMTRSouthboundInterfaceController.h */,
+				A183E6F01A22888600D7C999 /* KMTRSouthboundInterfaceController.m */,
 			);
 			path = "Komutr Watch App";
 			sourceTree = "<group>";
@@ -395,8 +405,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A183E6EE1A22878600D7C999 /* KMTRNorthboundInterfaceController.m in Sources */,
 				A13D5B631A22865300141805 /* ViewController.m in Sources */,
 				A13D5B601A22865300141805 /* AppDelegate.m in Sources */,
+				A183E6F11A22888600D7C999 /* KMTRSouthboundInterfaceController.m in Sources */,
 				A13D5B5D1A22865300141805 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -664,6 +676,7 @@
 				A13D5B7C1A22865300141805 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A13D5B7D1A22865300141805 /* Build configuration list for PBXNativeTarget "KomutrTests" */ = {
 			isa = XCConfigurationList;
@@ -672,6 +685,7 @@
 				A13D5B7F1A22865300141805 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A13D5BA71A2286DD00141805 /* Build configuration list for PBXNativeTarget "Komutr Watch App" */ = {
 			isa = XCConfigurationList;
@@ -680,6 +694,7 @@
 				A13D5BA91A2286DD00141805 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A13D5BAA1A2286DD00141805 /* Build configuration list for PBXNativeTarget "Komutr WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -688,6 +703,7 @@
 				A13D5BAC1A2286DD00141805 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
