@@ -56,7 +56,7 @@
                         </label>
                         <table alignment="left" layout="vertical" id="a7e-tY-3vW">
                             <items>
-                                <tableRow id="1HL-aS-fL1">
+                                <tableRow id="1HL-aS-fL1" customClass="KMTRSouthTableViewCell">
                                     <group key="rootItem" width="1" height="32" alignment="left" id="PnR-Ff-bSO">
                                         <items>
                                             <imageView width="15" height="12" alignment="left" verticalAlignment="center" image="ExpressIndicator" contentMode="scaleAspectFit" id="7on-pU-r5p"/>
@@ -64,6 +64,11 @@
                                             <label alignment="right" verticalAlignment="center" text="24m" textAlignment="right" id="qMf-Xv-AHf"/>
                                         </items>
                                     </group>
+                                    <connections>
+                                        <outlet property="arrivalTimeLabel" destination="uK6-Sx-VsS" id="XHg-eB-VMI"/>
+                                        <outlet property="timeUntilArrivalLabel" destination="qMf-Xv-AHf" id="a25-Ax-8ng"/>
+                                        <outlet property="trainRouteIndiciatorImage" destination="7on-pU-r5p" id="sb9-78-nUy"/>
+                                    </connections>
                                 </tableRow>
                             </items>
                         </table>
