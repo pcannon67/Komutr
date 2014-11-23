@@ -9,5 +9,30 @@
 #import "KMTRSouthboundInterfaceController.h"
 
 @implementation KMTRSouthboundInterfaceController
+{
+	NSArray * mountainViewCaltrainTimesSouthboundWeekend;
+	NSArray * mountainViewCaltrainTimesSouthboundWeekday;
+}
+
+- (instancetype) initWithContext:(id)context
+{
+	self = [super initWithContext:context];
+	if (self)
+	{
+		
+	}
+	
+	return self;
+}
+
+- (void) willActivate
+{
+	
+}
+
+- (void) didDeactivate
+{
+	
+}
 
 @end

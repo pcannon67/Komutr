@@ -5,12 +5,29 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3734"/>
     </dependencies>
     <scenes>
-        <!--Northbound Interface Controller-->
+        <!--NorthboundScene-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="KMTRNorthboundInterfaceController">
+                <controller identifier="NorthboundScene" backgroundImage="Background" id="AgC-eL-Hgc" customClass="KMTRNorthboundInterfaceController">
                     <items>
-                        <imageView width="136" height="151" alignment="left" id="Bet-1Q-Iyn"/>
+                        <label alignment="left" text="   Northbound" id="ICo-bV-y74">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="left" text="    Mountain View" lineHeight="1" id="7UM-v0-IvR">
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                        <table alignment="left" layout="vertical" id="3O6-Uf-kwL">
+                            <items>
+                                <tableRow id="rl9-3m-GSf">
+                                    <group key="rootItem" width="1" height="28" alignment="left" id="mp6-dl-OQ2">
+                                        <items>
+                                            <label alignment="left" text="Label" textAlignment="left" id="1bq-HS-r46"/>
+                                            <label alignment="right" text="Label" textAlignment="right" id="41w-rB-Q0J"/>
+                                        </items>
+                                    </group>
+                                </tableRow>
+                            </items>
+                        </table>
                     </items>
                     <connections>
                         <segue destination="MXt-eC-mLU" kind="relationship" relationship="nextPage" id="uN8-go-BeR"/>
