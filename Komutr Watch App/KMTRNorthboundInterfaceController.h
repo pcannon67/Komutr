@@ -10,4 +10,6 @@
 
 @interface KMTRNorthboundInterfaceController : WKInterfaceController
 
+
+@property (weak, nonatomic) IBOutlet WKInterfaceTable* tableDisplay;
 @end

@@ -21,7 +21,7 @@
                                 <tableRow id="rl9-3m-GSf">
                                     <group key="rootItem" width="1" height="28" alignment="left" id="mp6-dl-OQ2">
                                         <items>
-                                            <imageView width="15" height="27" alignment="left" verticalAlignment="center" contentMode="left" id="5hU-T0-Hdp"/>
+                                            <imageView width="15" height="12" alignment="left" verticalAlignment="center" image="ExpressIndicator" contentMode="scaleAspectFit" id="5hU-T0-Hdp"/>
                                             <label alignment="left" verticalAlignment="center" text="8:15pm" textAlignment="left" id="1bq-HS-r46"/>
                                             <label alignment="right" verticalAlignment="center" text="51m" textAlignment="right" id="41w-rB-Q0J"/>
                                         </items>
@@ -31,6 +31,7 @@
                         </table>
                     </items>
                     <connections>
+                        <outlet property="tableDisplay" destination="3O6-Uf-kwL" id="gq3-hY-Phs"/>
                         <segue destination="MXt-eC-mLU" kind="relationship" relationship="nextPage" id="uN8-go-BeR"/>
                     </connections>
                 </controller>
@@ -51,9 +52,9 @@
                         <table alignment="left" layout="vertical" id="a7e-tY-3vW">
                             <items>
                                 <tableRow id="1HL-aS-fL1">
-                                    <group key="rootItem" width="1" alignment="left" id="PnR-Ff-bSO">
+                                    <group key="rootItem" width="1" height="32" alignment="left" id="PnR-Ff-bSO">
                                         <items>
-                                            <imageView width="15" height="27" alignment="left" verticalAlignment="center" id="7on-pU-r5p"/>
+                                            <imageView width="15" height="12" alignment="left" verticalAlignment="center" image="ExpressIndicator" contentMode="scaleAspectFit" id="7on-pU-r5p"/>
                                             <label alignment="left" verticalAlignment="center" text="8:47pm" textAlignment="left" id="uK6-Sx-VsS"/>
                                             <label alignment="right" verticalAlignment="center" text="24m" textAlignment="right" id="qMf-Xv-AHf"/>
                                         </items>

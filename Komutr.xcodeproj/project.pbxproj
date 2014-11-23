@@ -25,6 +25,7 @@
 		A13D5BA61A2286DD00141805 /* Komutr WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A13D5B841A2286DD00141805 /* Komutr WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A183E6EE1A22878600D7C999 /* KMTRNorthboundInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A183E6ED1A22878600D7C999 /* KMTRNorthboundInterfaceController.m */; };
 		A183E6F11A22888600D7C999 /* KMTRSouthboundInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A183E6F01A22888600D7C999 /* KMTRSouthboundInterfaceController.m */; };
+		A183E6F41A22974A00D7C999 /* KMTRTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A183E6F31A22974A00D7C999 /* KMTRTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,8 @@
 		A183E6ED1A22878600D7C999 /* KMTRNorthboundInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMTRNorthboundInterfaceController.m; sourceTree = "<group>"; };
 		A183E6EF1A22888600D7C999 /* KMTRSouthboundInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMTRSouthboundInterfaceController.h; sourceTree = "<group>"; };
 		A183E6F01A22888600D7C999 /* KMTRSouthboundInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMTRSouthboundInterfaceController.m; sourceTree = "<group>"; };
+		A183E6F21A22974A00D7C999 /* KMTRTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMTRTableViewCell.h; sourceTree = "<group>"; };
+		A183E6F31A22974A00D7C999 /* KMTRTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMTRTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +235,8 @@
 				A183E6ED1A22878600D7C999 /* KMTRNorthboundInterfaceController.m */,
 				A183E6EF1A22888600D7C999 /* KMTRSouthboundInterfaceController.h */,
 				A183E6F01A22888600D7C999 /* KMTRSouthboundInterfaceController.m */,
+				A183E6F21A22974A00D7C999 /* KMTRTableViewCell.h */,
+				A183E6F31A22974A00D7C999 /* KMTRTableViewCell.m */,
 			);
 			path = "Komutr Watch App";
 			sourceTree = "<group>";
@@ -408,6 +413,7 @@
 				A183E6EE1A22878600D7C999 /* KMTRNorthboundInterfaceController.m in Sources */,
 				A13D5B631A22865300141805 /* ViewController.m in Sources */,
 				A13D5B601A22865300141805 /* AppDelegate.m in Sources */,
+				A183E6F41A22974A00D7C999 /* KMTRTableViewCell.m in Sources */,
 				A183E6F11A22888600D7C999 /* KMTRSouthboundInterfaceController.m in Sources */,
 				A13D5B5D1A22865300141805 /* main.m in Sources */,
 			);
