@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A13D5B981A2286DD00141805"
+               BuildableName = "Komutr Watch App.app"
+               BlueprintName = "Komutr Watch App"
+               ReferencedContainer = "container:Komutr.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "A13D5B561A22865300141805"
                BuildableName = "Komutr.app"
                BlueprintName = "Komutr"
@@ -23,14 +37,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A13D5B6F1A22865300141805"
-               BuildableName = "KomutrTests.xctest"
-               BlueprintName = "KomutrTests"
+               BlueprintIdentifier = "A13D5B831A2286DD00141805"
+               BuildableName = "Komutr WatchKit Extension.appex"
+               BlueprintName = "Komutr WatchKit Extension"
                ReferencedContainer = "container:Komutr.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A13D5B6F1A22865300141805"
-               BuildableName = "KomutrTests.xctest"
-               BlueprintName = "KomutrTests"
-               ReferencedContainer = "container:Komutr.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A13D5B561A22865300141805"
-            BuildableName = "Komutr.app"
-            BlueprintName = "Komutr"
+            BlueprintIdentifier = "A13D5B981A2286DD00141805"
+            BuildableName = "Komutr Watch App.app"
+            BlueprintName = "Komutr Watch App"
             ReferencedContainer = "container:Komutr.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Komutr">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A13D5B561A22865300141805"
-            BuildableName = "Komutr.app"
-            BlueprintName = "Komutr"
+            BlueprintIdentifier = "A13D5B981A2286DD00141805"
+            BuildableName = "Komutr Watch App.app"
+            BlueprintName = "Komutr Watch App"
             ReferencedContainer = "container:Komutr.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A13D5B981A2286DD00141805"
+            BuildableName = "Komutr Watch App.app"
+            BlueprintName = "Komutr Watch App"
+            ReferencedContainer = "container:Komutr.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Komutr">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A13D5B561A22865300141805"
-            BuildableName = "Komutr.app"
-            BlueprintName = "Komutr"
+            BlueprintIdentifier = "A13D5B981A2286DD00141805"
+            BuildableName = "Komutr Watch App.app"
+            BlueprintName = "Komutr Watch App"
             ReferencedContainer = "container:Komutr.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A13D5B981A2286DD00141805"
+            BuildableName = "Komutr Watch App.app"
+            BlueprintName = "Komutr Watch App"
+            ReferencedContainer = "container:Komutr.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
