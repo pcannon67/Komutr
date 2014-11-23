@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <WatchKit/WatchKit.h>
 
 @interface KMTRTableViewCell : NSObject
+
+@property (weak, nonatomic) IBOutlet WKInterfaceLabel * arrivalTimeLabel;
+@property (weak, nonatomic) IBOutlet WKInterfaceLabel * timeUntilArrivalLabel;
+@property (weak, nonatomic) IBOutlet WKInterfaceImage * trainRouteIndiciatorImage;
 
 @end

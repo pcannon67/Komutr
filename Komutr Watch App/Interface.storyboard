@@ -18,7 +18,7 @@
                         </label>
                         <table alignment="left" layout="vertical" id="3O6-Uf-kwL">
                             <items>
-                                <tableRow id="rl9-3m-GSf">
+                                <tableRow id="rl9-3m-GSf" customClass="KMTRTableViewCell">
                                     <group key="rootItem" width="1" height="28" alignment="left" id="mp6-dl-OQ2">
                                         <items>
                                             <imageView width="15" height="12" alignment="left" verticalAlignment="center" image="ExpressIndicator" contentMode="scaleAspectFit" id="5hU-T0-Hdp"/>
@@ -26,6 +26,11 @@
                                             <label alignment="right" verticalAlignment="center" text="51m" textAlignment="right" id="41w-rB-Q0J"/>
                                         </items>
                                     </group>
+                                    <connections>
+                                        <outlet property="arrivalTimeLabel" destination="1bq-HS-r46" id="aRJ-99-xqI"/>
+                                        <outlet property="timeUntilArrivalLabel" destination="41w-rB-Q0J" id="J36-fV-BTG"/>
+                                        <outlet property="trainRouteIndiciatorImage" destination="5hU-T0-Hdp" id="XIH-ts-vN7"/>
+                                    </connections>
                                 </tableRow>
                             </items>
                         </table>
